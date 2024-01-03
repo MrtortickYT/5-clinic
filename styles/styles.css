@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Mulish:wght@400;700&family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 18px;
+    font-family: "Mulish", sans-serif;
+}
+
+/* header */
+
+header{
+    z-index: 1;
+    padding: 55px ;
+    padding-bottom: 0;
+   display: none;
+   
+}
+
+nav.menu{
+    z-index: 1;
+    display: flex;
+    align-items: center;
+   
+}
+
+nav.menu a{
+    z-index: 1;
+text-decoration: none;
+color: #333;
+}
+
+a.menu_logo{
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    text-indent: 20px;
+    
+}
+
+.menu_link,
+.menu_link-active{
+    z-index: 1;
+    padding: 10px;
+    margin: 10px;
+}
+
+.menu_link-active{
+    z-index: 1;
+    font-weight: bold;
+}
+
+/* welcome */
+
+.welcome{
+    z-index: 1;
+    padding: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.welcome_text{
+    z-index: 1;
+    max-width:450px;
+    margin-right: 50px;
+}
+
+.welcome_header{
+    z-index: 1;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.welcome_button{
+    z-index: 1;
+    margin-top: 20px;
+
+    display: inline-block;
+    padding: 20px 60px;
+    background-color: #458ff8;
+    color: #fff;
+    border-radius: 55px;
+}
+.welcome-image{
+    max-width: 500px;
+}
+
+.our_services{
+padding: 55px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+
+ .our_services p{
+    color: #7d7987;
+    font-weight: 300;
+    font-size: 16px;
+ } 
+
+ .our_services_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1100px;
+    background: url("../img/svg.png") no-repeat;
+    background-position: 0% 45%;
+    margin-bottom: 120px;
+ }
+
+ .our_services_top h1{
+    padding: 20px;
+    margin: 20px;
+    border-bottom: 2px solid #333;
+ }
+ .background{
+    width: 100vw;
+    background: url(../img/svg.png);
+    display: flex;
+    justify-content: center;
+ }
+ .our_services_content{
+    width: 80%;
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+ }
+ .service_card{
+    width: 25%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    box-shadow: 10px 40px 50px rgba(229 , 233 , 246 , 0.4);
+    background-color: #fff;
+    border-radius: 20px;
+ }
+.service_card img{
+    width: 50%;
+    margin-bottom: 20px;
+}
+.service_card h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.more-btn{
+    padding: 20px 50px;
+    border-radius: 55px;
+    color: #458ff6;
+    text-decoration: none;
+    border: 1px solid #458ff6;
+    display: inline-block;
+    margin-top: 37px;
+}
+
+.info, .download{
+    padding: 55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-bottom: 120px;
+}
+
+.info_image, .download_image{
+    max-width: 500px;
+}
+
+.info_text, .download_text{
+    max-width: 450px;
+}
+.info_text h1, .download_text h1{
+    padding: 20px;
+    padding-left: 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #333;
+}
+.more-btn img{
+margin-left: 10px;
+}
+
